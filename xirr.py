@@ -61,7 +61,7 @@ def xirr(data: pd.DataFrame) -> float:
     
     # Renaming the columns accordingly and converting to correct data types
     data.columns = col_names
-    data = data.assign(Date = pd.to_datetime(arg = data['Date'], infer_datetime_format = True).dt.date,
+    data = data.assign(Date = pd.to_datetime(arg = data['Date'], infer_datetime_format = True, dayfirst = True).dt.date,
                        Amount = data['Amount'].astype(float))
     
     if data['Amount'].sum() > 0:
