@@ -36,6 +36,14 @@ def xirr(data: pd.DataFrame) -> float:
     -----------
     data: a pandas dataframe
         This dataframe should have only two columns: one with dates and other with amount.
+        The date can be any one or a mix of these formats. I set it to consider dayfirst = True:
+            23/03/1990
+            19 December 1991
+            1992-04-10
+            27/05/92
+            26.10.92
+            3/9/93
+            datetime.date(1990, 3, 23)
         The amount should be negative if it is a debit transaction and positive if it is a credit transaction.
         Example:
             Date	    Amount
