@@ -4,43 +4,35 @@ XIRR calculation (in Python)
 Introduction
 ============
 
-XIRR stands for Extended Internal Rate of Return and is used to calculate return on investments done at different time periods which need not be periodic.
+XIRR stands for Extended Internal Rate of Return and is used to calculate return on investments made at different time periods which need not be periodic.
 
 XIRR gives the annualized return of a portfolio that include all cash flows.
 
 XIRR is a financial function available in Excel. The drawback with Excel's XIRR is that it will show the 0% XIRR as a default for negative returns.
 
-For use in Python, I have written this code which calculates XIRR for both positive and negative returns. For the same XIRR calculation using R, please check my other repository XIRR_in_R.
+For use in Python, I have written this code which calculates XIRR for both positive and negative returns. For the same XIRR calculation using R, please check my other repository: [**XIRR_in_R**](https://github.com/SunilVeeravalli/XIRR_in_R)
 
 I hope you find my xirr function useful.
 
 System requirements
 -------------------
 
-1.  R
-2.  RStudio
+1.  Python
+2.  Libraries: Pandas, Numpy
 
 Data requirements
 -----------------
 
 Prepare your data in two columns:
 1. First column - dates
-2. Second column - amounts. The invested amount should be given a negative sign and the redemptions should be given a positive sign.
+2. Second column - amounts. The invested amount (debit) should be given a negative sign and the redemptions (credit) should be given a positive sign.
 
 Note: Please find the sample data provided in the repository
 
 -   Sample\_Positive\_Returns.csv
 -   Sample\_Negative\_Returns.csv
 
-Please install tidyverse package
 
-``` r
-install.packages("tidyverse", repos = "https://cran.ma.imperial.ac.uk/") 
-library(tidyverse)
-```
-
-Bring the xirr function into your environment
-`source(file = "Xirr Code.R")`
 
 Example: Positive returns
 -------------------------
