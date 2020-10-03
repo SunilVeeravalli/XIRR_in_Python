@@ -20,6 +20,14 @@ Sample test Data
 <pre>
 Data should be in a csv file and should have two columns:  
     1. Date of transaction  
+        The date can be any one or a mix of these formats. I set it to consider dayfirst = True:
+        23/03/1990
+        19 December 1991
+        1992-04-10
+        27/05/92
+        26.10.92
+        3/9/93
+        datetime.date(1990, 3, 23)
     2. Transaction amount where purchases (debit) should be a negative number and the redemptions (credit) should be a positive number.
         dates      amount
         23/03/1990  -1350
