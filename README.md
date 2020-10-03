@@ -57,14 +57,14 @@ Example: Positive returns
 Pass the location of Sample\_Positive\_Returns.csv
 ![](Images/positive_returns_test_and_output.jpg)
 
-That is, the return of our portfolio is **17.425%** per annum.
+That is, the return of our portfolio is **17.429%** per annum.
 
 Example: Negative returns
 -------------------------
 Pass the location of Sample\_Negative\_Returns.csv
 ![](Images/negative_returns_test_and_output.jpg)
 
-That is, the return of our portfolio is **-79.845%** per annum.
+That is, the return of our portfolio is **-79.848%** per annum.
  
 
 
