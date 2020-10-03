@@ -14,11 +14,6 @@ For use in Python, I have written this code which calculates XIRR for both posit
 
 I hope you find my xirr function useful.
 
-System requirements
--------------------
-
-1.  Python (version 3.8.2)
-2.  Libraries: Pandas, Numpy
 
 Sample test Data
 -----------------
@@ -41,21 +36,33 @@ Note: Please find the sample data provided in the repository
 -   [Sample\_Negative\_Returns.csv](https://github.com/SunilVeeravalli/XIRR_in_Python/blob/main/Sample_Negative_Returns.csv)
 
 
+System requirements
+-------------------
+1.  Python (version 3.8.2)
+2.  Libraries: Pandas, Numpy
+
+I am using git terminal (CLI) to execute the script.  
+Clone the repository onto your system from github.
+![](Images/clone_repository.jpg)
+
+Move into the cloned folder.  
+![](Images/moving_into_directory.jpg)
+
+View the list of files and folders.  
+![](Images/list_of_files.jpg)
+
 
 Example: Positive returns
 -------------------------
-
-I am using CMD terminal (CLI) to execute the script.
-
-
-
+Pass the location of Sample\_Positive\_Returns.csv
+![](Images/positive_returns_test_and_output.jpg)
 
 That is, the return of our portfolio is **17.425%** per annum.
 
 Example: Negative returns
 -------------------------
-
-
+Pass the location of Sample\_Negative\_Returns.csv
+![](Images/negative_returns_test_and_output.jpg)
 
 That is, the return of our portfolio is **-79.845%** per annum.
 
