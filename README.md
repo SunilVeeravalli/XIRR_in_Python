@@ -65,7 +65,7 @@ Pass the location of Sample\_Negative\_Returns.csv
 ![](Images/negative_returns_test_and_output.jpg)
 
 That is, the return of our portfolio is **-79.845%** per annum.
-
+ 
 
 
 
